@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.whySection {
+  width: 33%;
+  max-width: 435px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: rgba(255, 139, 56, 1);
+}
+
+.text {
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(134, 135, 139, 1);
+}
+
+.Title {
+  margin: 102px auto 0;
+  font-size: 36px;
+  color: rgba(33, 33, 33, 1);
+}
+
+.textHeader {
+  height: 20px;
+  margin-top: 22px;
+  margin: 0 auto;
+}
+
+.Subtitle {
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(33, 33, 33, 1);
+}
+.wrapper {
+  width: 80%;
+  max-width: 1113px;
+  margin: 0 auto;
+  display: flex;
+  align-items: row;
+  justify-content: center;
+}
+
+.whyWrapper {
+  margin: 66px auto 111px;
+}
+
+.section {
+  width: 30%;
+  max-width: 349px;
+}
+
+.backgroundImage {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 27px;
+  border: 2px solid rgba(255, 139, 56, 1);
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bulb {
+  background-image: url(images/1.jpg);
+}
+
+.keyboard {
+  background-image: url(images/2.jpg);
+}
+
+.power {
+  background-image: url(images/3.jpg);
+}
+
+.centralSection {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.pricingOptions {
+  padding-top: 102px;
+  background-color: #f5f5f5;
+}
+
+.pricingWrapper {
+  width: 30%;
+  max-width: 389px;
+  margin: 0 auto 81px;
+}
+
+.pricingTitle {
+  font-weight: normal;
+  font-size: 36px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.pricingText {
+  color: #86878b;
+}
+
+.block {
+  width: 30%;
+  max-width: 343px;
+  margin: 0 auto 111px;
+  list-style-type: none;
+}
+
+.leftBlock {
+  margin-top: 51px;
+}
+
+.rightBlock {
+  margin-top: 47px;
+}
+
+.blockCenter {
+  margin: 0 40px;
+}
+
+.blockHeader {
+  background-color: #333333;
+}
+
+.packageName {
+  padding: 18px 0 17px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.price {
+  padding: 28px 0 28px;
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.fontOpenSans {
+  font-family: Open Sans;
+}
+
+.payment {
+  padding: 14px 0 13px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.relevance {
+  padding-top: 5px;
+  background-color: #ff8b38;
+}
+
+.relevanceCenter {
+  padding: 20px 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.option {
+  padding: 11px 0;
+  border-bottom: 1px solid #f5f5f5;
+  background-color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  color: #86878b;
+}
+
+.optionTop {
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.stylish {
+  width: 30%;
+  max-width: 416px;
+  margin: 0 auto;
+}
+
+.architecture {
+  width: 100%;
+  background-image: url(images/architecture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadow {
+  width: 100%;
+  padding-top: 54px;
+  background-color: rgba(51, 51, 51, 0.58);
+}
+
+.architectureTitle {
+  font-weight: normal;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.architectureLine {
+  background-color: #ffffff;
+}
+
+.architectureText {
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 38px;
+  color: #ffffff;
+}
+
+.download {
+  width: 134px;
+  height: 42px;
+  margin: auto;
+  margin-bottom: 54px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  border-radius: 4%;
+  transition-duration: 0.5s;
+}
+
+.download:hover {
+  background-color: rgba(51, 51, 51, 0.95);
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
